@@ -1,4 +1,4 @@
-num = 5
+num = 1
 
 while num <= 9:
     print(f"Bảng cửu chương của {num}:")
