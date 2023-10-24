@@ -1,4 +1,4 @@
-def calculate_percentage(total, *values):
+def calculate_percentage(*args):
     total_sum = sum(values)
 
     list_percent = []
@@ -9,7 +9,6 @@ def calculate_percentage(total, *values):
 
     return list_percent
 
-total_value = 1000
 values = [250, 350, 400]
-result = calculate_percentage(total_value, *values)
+result = calculate_percentage(*values)
 print(result)
