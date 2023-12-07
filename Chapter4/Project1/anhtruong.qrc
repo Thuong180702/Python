@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="truong">
+    <file>anhtruong.jpg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,4 @@
+- Khi thay đổi (thêm/xóa/...) bất cứ đối tượng nào trong Qt Designer, phải mở cmd và nhập câu lệnh "pyuic5 -x Image_Thresholding.ui -o Image_Thresholding.py" để cập nhật lại file .py. Trong file Image_Thresholding.py, ở mục import anhlogo_rc và import anhtruong_rc thì xóa phần đuôi _rc đi.
+- Khi chạy file Image_Thresholding.ui bằng code trong Python, điều chỉnh các giá trị Min Value là giá trị ngưỡng được sử dụng để chia ảnh xám thành các pixel có giá trị nhỏ hơn ngưỡng thành 0, và pixel có giá trị lớn hơn ngưỡng thành 255; Max Value là giá trị tối đa của pixel sau khi áp dụng ngưỡng.
+ Giá trị Max Value được gán cho các pixel có giá trị lớn hơn ngưỡng và giá trị Min Value được gán cho các pixel có giá trị nhỏ hơn ngưỡng.
+- Sau đó mới nhấn nút Open Image, chọn ảnh mong muốn, giao diện sẽ hiển thị đồ thị tần số của ảnh màu và đồ thị tần số của ảnh Binary. Nếu điều chỉnh lại các giá trị Min Value và Max Value thì chọn lại nút Open Image

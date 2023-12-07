@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="logokhoa">
+    <file>logo1.png</file>
+    <file>logo.png</file>
+  </qresource>
+</RCC>
